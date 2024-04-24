@@ -1,0 +1,10 @@
+-- DROP DATABASE loja;
+
+CREATE TABLE Funcionario
+(
+	Id INT PRIMARY KEY NOT NULL AUTO_INCREMENT,
+    Nome VARCHAR(50),
+    Codigo VARCHAR(30),
+	Email VARCHAR(20),
+    Senha VARCHAR(10)
+);
